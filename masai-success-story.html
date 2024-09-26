@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./a.css"/>
+    <style>
+        .top {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 5px 0;
+        background-color: #fedfe5;
+        }
+        
+        .top-button {
+            background-color: #ea0430;
+            color: white;
+            border: none;
+            width: 10%;
+            height: 40px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .top-button:hover {
+            background-color: #d10026;
+            
+        }
+        .main-box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 110px;
+        }
+        nav ul {
+            display: flex;
+            gap: 30px;
+        }
+        nav ul li {
+            list-style-type: none;
+            text-decoration: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        nav ul li:hover {
+            color: #d10026;
+        }
+        .but-dev {
+            gap: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .border1 {
+            padding: 10px;
+            background-color: rgb(217, 242, 251);
+            color:rgb(44, 120, 163);
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .border1:hover {
+            background-color:rgb(177, 220, 236) ;
+        }
+        .border2 {
+            padding: 10px;
+            background-color: white;
+            color:#d74163;
+            border-radius: 5px;
+            border:1px solid red;
+            cursor: pointer;
+        }
+        .border2:hover {
+            background-color:rgb(255, 233, 233);
+        }
+        .big-box {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 40px; 
+            margin-top: 30px;
+            height: 400px;
+        }
+        .big-box >div {
+            /* border: 1px solid black; */
+            width: 100%;
+            height: 360px;
+            margin: 10px 0;
+            border-radius: 10px;
+            
+        }
+        .h1-box {
+           padding-left: 10px;
+        }
+        .h1-box >h1{
+            font-size: 60px;
+            color: #6b70cd;
+            font-weight: bold;
+
+
+        }
+        .h1-box >h2 {
+            font-size: 27px;
+            color: black;
+            margin-top: -25px;
+        }
+        .last-button {
+            background-color: #ea0430;
+            color: white;
+            border: none;
+            width: 24%;
+            height: 50px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: px;
+            font-weight: bolder;
+            font-size: 16px;
+        }
+        .last-button:hover {
+            background-color: #d10026;
+            
+        }
+        footer {
+            width: 100%;
+            background-color: #346fe3;
+            
+        }
+        footer>h1 {
+            color: white;
+            text-align: center;
+            margin: auto;
+            align-items: center;
+            padding-top: 30px;
+            font-weight: bolder;
+        }
+        footer>p {
+            color: white;
+            text-align: center;
+            margin: auto;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+    </style>
+    <title>Masai Sucess Story</title>
+</head>
+<body>
+    <div class="top">
+         <h3>Applications for our 6th Novembers Batches are open!</h3>
+         <button class="top-button">APPLY NOW</button>
+    </div>
+    <header>
+        <div class="main-box">
+            <img
+            class="logo"
+            src="https://cdn.masaischool.com/masai-website/Masai_Logo_dark_web_b21aab8c62.webp" alt="masai-logo"/>
+            <nav>
+                <ul>
+                    <li>Courses</li>
+                    <li>Fees</li>
+                    <li>Events</li>
+                    <li>Learn</li>
+                    <li><span>Success Stores</span></li>
+                    <li>Hire From Us</li>
+                </ul>
+            </nav>
+            <div class="but-dev">
+                <button class="border1">REFER & EARN</button>
+                <button class="border2">SIGN UP</button>
+            </div>
+        </div>
+    </header>
+    <main>
+       <div class="big-box">
+        <div class="h1-box">
+            <h1>Proof that dreams do come true</h1>
+            <h2>A testament to what’s possible</h2>
+            <button class="last-button">APPLY NOW</button>
+        </div>
+        <div >
+            <iframe style="width:100%;height:100%; border-radius: 20px;border: none;"src="https://www.youtube.com/embed/0867JeIfyLY" frameborder="0" allowfullscreen></iframe>
+        </div>
+       </div>
+    </main>
+    <footer>
+        <h1>How Is Masai Creating an Impact?</h1>
+        <p>4000 students place across 100+ companaies</p>
+    </footer>
+</body>
+</html>
